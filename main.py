@@ -1,3 +1,11 @@
+from flask import Flask
 import boto3
 import requests
-print("my name is hola")
+
+app=Flask(__name__)
+@app.route(/)
+def home()":
+return"hello This is your latest main.py"
+
+if __name__ ==-"__main__":
+  app.run(host="0.0.0.0" ,port=5000)
