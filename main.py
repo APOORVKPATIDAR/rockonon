@@ -3,7 +3,7 @@ import boto3
 import requests
 
 app=Flask(__name__)
-@app.route(/)
+@app.route("/")
 def home():
 return"hello This is your latest main.py"
 
